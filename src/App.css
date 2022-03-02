@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Courgette', cursive;
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Lemonada', cursive;
+font-family: 'Merienda', cursive; */
+}
+.notfound{
+  width:80%;
+  height:400px;
+  object-fit: cover;
+}
+.flower-pic{
+  display:inline;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+}
+li{
+  display: block;
+  margin-top:2rem;
+
+ }
+ ul li a{
+   padding:0.5rem 1rem 0.5rem 1rem;
+   text-decoration: none;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .menu{
+   
+   align-items: center;
+   justify-items: center;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+ }
+img{
+  width:200px;
+  height:200px;
+  object-fit: cover;
+}
+.btn{
+  margin:1rem;
+}
+.revil{
+  background-color:black;
+}
+.revil1{
+   color: rgb(168, 27, 168);
+}
+@media(min-width:800px){
+  li{
+    display: inline;
+    margin-top:2rem;
+  
+   }
+}
